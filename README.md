@@ -16,6 +16,13 @@ Anda tidak perlu meng-install Gradle secara manual di komputer Anda. Repositori 
    ```
 2. Run dengan gradle
    ```bash
+   # Linux/Macos
    ./gradlew run
+   # Windows
+   gradlew.bat run
    ```
-  
+   Aplikasi akan secara otomatis mengunduh dependencies (GSON, AtlantaFX, dll) pada saat pertama kali dijalankan, lalu membuka antarmuka.
+
+### Struktur Knowledge Base
+Semua aturan dan bobot penyakit tidak di-hardcode di dalam kode, melainkan dapat dikonfigurasi melalui berkas JSON di:
+`src/main/resources/knowledge_base.json`
