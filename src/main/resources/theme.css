@@ -1,0 +1,42 @@
+.root {
+    -fx-font-size: 15px;
+    -fx-font-family: "Roboto", "Segoe UI", sans-serif;
+    -color-accent-emphasis: #009688;
+    -color-accent-fg: #ffffff;
+    -color-accent-muted: rgba(0, 150, 136, 0.2);
+    -color-bg-default: #FAFAFA;
+    -color-bg-subtle: #FFFFFF;
+}
+
+.med-card {
+    -fx-background-color: -color-bg-subtle;
+    -fx-border-color: transparent;
+    -fx-background-radius: 8px;
+
+    /* shadow effect */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.12), 10, 0.1, 0, 4);
+}
+
+.med-header {
+    -fx-font-size: 26px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #212121;
+}
+
+.med-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-text-fill: -color-accent-emphasis;
+}
+
+.check-box {
+    -fx-padding: 5px 0;
+}
+.check-box .box {
+    /* bigger checkbox */
+    -fx-min-width: 20px;
+    -fx-min-height: 20px;
+}
+.progress-bar {
+    -fx-min-height: 12px; /* thicker progress bar */
+}

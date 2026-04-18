@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "name": "Penyakit Infeksi",
+      "diseases": [
+        {
+          "id": "INF-01",
+          "name": "Influenza",
+          "symptom_groups": [
+            {
+              "name": "Demam",
+              "leaf_symptoms": ["Suhu 37.5-39°C", "Suhu meningkat bertahap", "Menggigil ringan"]
+            },
+            {
+              "name": "Batuk",
+              "leaf_symptoms": ["Batuk kering", "Berdahak ringan", "Frekuensi >3x/jam"]
+            },
+            {
+              "name": "Pilek",
+              "leaf_symptoms": ["Hidung tersumbat", "Hidung berair", "Cairan bening encer", "Bersin berulang"]
+            },
+            {
+              "name": "Sakit Tenggorokan",
+              "leaf_symptoms": ["Nyeri saat menelan", "Kemerahan ringan pada faring"]
+            }
+          ]
+        },
+        {
+          "id": "INF-02",
+          "name": "Demam Berdarah",
+          "symptom_groups": [
+            {
+              "name": "Demam Tinggi",
+              "leaf_symptoms": ["Suhu > 39°C mendadak", "Pola 2-7 hari suhu turun naik"]
+            },
+            {
+              "name": "Nyeri Sendi",
+              "leaf_symptoms": ["Nyeri pada otot", "Nyeri pada tulang"]
+            },
+            {
+              "name": "Ruam Kulit",
+              "leaf_symptoms": ["Bintik merah", "Bintik tidak hilang saat ditekan", "Uji torniket positif"]
+            },
+            {
+              "name": "Mual",
+              "leaf_symptoms": ["Muntah >2x/hari", "Nafsu makan turun"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Penyakit Non-Infeksi",
+      "diseases": [
+        {
+          "id": "NINF-01",
+          "name": "Diabetes",
+          "symptom_groups": [
+            {
+              "name": "Sering Haus",
+              "leaf_symptoms": ["Minum >3 liter/hari"]
+            },
+            {
+              "name": "Sering Buang Air Kecil",
+              "leaf_symptoms": ["Buang air kecil 8x/hari", "Sering buang air kecil pada malam hari"]
+            },
+            {
+              "name": "Mudah Lelah",
+              "leaf_symptoms": ["Energi cepat habis", "Kadar gula darah >200 mg/dL"]
+            },
+            {
+              "name": "Luka Sulit Sembuh",
+              "leaf_symptoms": ["Infeksi berulang", "Penyembuhan >2 minggu"]
+            }
+          ]
+        },
+        {
+          "id": "NINF-02",
+          "name": "Hipertensi",
+          "symptom_groups": [
+            {
+              "name": "Sakit Kepala",
+              "leaf_symptoms": ["Sakit kepala terjadi pagi hari", "Berdenyut", "Terutama di bagian belakang kepala"]
+            },
+            {
+              "name": "Pusing",
+              "leaf_symptoms": ["Terasa berputar dan ringan (terkait perubahan posisi)"]
+            },
+            {
+              "name": "Penglihatan Kabur",
+              "leaf_symptoms": ["Gangguan visual sementara", "Retina mengalami penyempitan pembuluh"]
+            },
+            {
+              "name": "Tekanan Darah",
+              "leaf_symptoms": ["Konsisten tinggi >= 140/90 mmHg", "Detak jantung meningkat"]
+            },
+            {
+              "name": "Mimisan",
+              "leaf_symptoms": ["Perdarahan dari hidung"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
